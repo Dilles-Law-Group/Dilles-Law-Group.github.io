@@ -1,0 +1,12 @@
+.logo {
+    height: 100px;
+}
+
+.logo-mobile {
+    height: 60px;
+}
+
+.logo-footer {
+    height: 70px;
+    padding-bottom: 10px;
+}
