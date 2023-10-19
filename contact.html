@@ -129,29 +129,52 @@
         <div class="container py-5">
             <div class="text-center pb-2">
                 <h6 class="text-uppercase">Contact Us</h6>
-                <h1 class="mb-4">Contact For Any Query</h1>
+                <h1 class="mb-4">Request a Free Consultation</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" id="formspree-contact-form" novalidate="novalidate" action="https://formspree.io/f/xrgwjzea" method="POST">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <h6>Your Name</h6>
+                                    <input type="text" class="form-control p-4" id="name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <h6>Your Email</h6>
+                                    <input type="email" class="form-control p-4" id="email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <h6>Address</h6>
+                                    <input type="text" class="form-control p-4" id="address" required="required" data-validation-required-message="Please enter your address" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <h6>Phone Number</h6>
+                                    <input type="tel" class="form-control p-4" id="phone" required="required" data-validation-required-message="Please enter your phone number" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <h6>Emplyoyer at Time of Injury</h6>
+                                    <input type="text" class="form-control p-4" id="employer" required="required" data-validation-required-message="Please enter your employer" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <h6>Date of Injury</h6>
+                                    <input type="date" class="form-control p-4" id="doi" required="required" data-validation-required-message="Please enter your date of injury" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <h6>Describe injury/condition</h6>
+                                <textarea class="form-control p-4" rows="10" id="message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
@@ -161,10 +184,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6" style="min-height: 400px;">
-                    <div class="position-relative h-100 rounded overflow-hidden">
+                    <div class="position-relative h-75 rounded overflow-hidden">
                         <iframe style="width: 100%; height: 100%; object-fit: cover;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.1851067047214!2d-121.65721332336783!3d36.71811537227075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808dff1387cdc423%3A0xcd6c7d2aa6c5af6b!2s1880%20N%20Main%20St%20%23350%2C%20Salinas%2C%20CA%2093906!5e0!3m2!1sen!2sus!4v1697750961483!5m2!1sen!2sus"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="h-25">
+                        <p style="margin-top: 20px">Making a false or fraudulent workers’ compensation claim is a felony subject to up to 5 years in prison and/or up to a $50,000 fine.</p>
+                        <p>This website is designed for general information only. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer-client relationship.</p>
                     </div>
                 </div>
             </div>
