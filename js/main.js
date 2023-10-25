@@ -101,12 +101,14 @@
 
     // Attorney carousel
     $(".attorney-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1500,
         margin: 30,
         dots: false,
         loop: true,
         nav : true,
+        touchDrag: false,
+        mouseDrag: false,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
