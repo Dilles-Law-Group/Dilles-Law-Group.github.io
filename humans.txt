@@ -8,7 +8,7 @@
 	Text content written with help from Nicholas Dilles
 
 /* SITE */
-Last update: 2025/02/19
+Last update: 2026/06/02
 Standards: HTML5, CSS3
 Components: jQuery
 Software: WebStorm, Git, GIMP, GitHub Pages
